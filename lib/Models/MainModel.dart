@@ -7,4 +7,6 @@ class MainModel{
 
   MainModel({@required this.seq, @required this.title, @required this.content})
       :assert(seq != null);
+
+  //
 }
